@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('background.jpg')
+}
+
+i{
+  font-size: 20px;
+  color: red;
+}
+
+#aggiungi{
+  height: 30px;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 10%;
+  color: white;
+  cursor: pointer;
+  background-color: red;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+#inserisciQualcosa{
+  height: 30px;
+  display: block;
+}
+
+
+.flex-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+ul{
+  list-style: none;
+}
+
+ul li{
+
+  margin-top: 10px;
+  border-bottom: 3px solid black;
+}
+
+ul li i{
+  padding-right: 10px;
+}
+
+.comandi{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#lista li span{
+  color: white;
+  font-weight: 1000;
+}
