@@ -7,7 +7,7 @@ $(document).ready(function(){
   $('#aggiungi').click(function(){
     var inserisciQualcosa = $('#inserisciQualcosa').val();
     $('#InserisciQualcosa').val('');
-    //uso il clone in modo tale da aggiungere un li ogni volta che l'utente preme su aggiungi
+    //uso il clone in modo tale da clonare il template che è in display none
     var template = $('#todo li').clone();
     template.children('span.testo').text(inserisciQualcosa);
     //al click sull'icon checked l'li aggiunto padre di span viene eliminato
